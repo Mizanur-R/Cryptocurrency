@@ -734,7 +734,7 @@ nav.navbar {
     .faq .accordion .card .card-header:hover {
       background: #7b5eea;
       color: white; }
-    .faq .accordion .card .card-header:hover button.collapsed::after, .faq .accordion .card .card-header:hover button.collapsed::before, .faq .accordion .card .card-header:hover button.collapsed[aria-expanded="true"]::after {
+    .faq .accordion .card .card-header:hover button.collapsed::after, .faq .accordion .card .card-header:hover button.collapsed::before, .faq .accordion .card .card-header:hover button[aria-expanded="true"]::after {
       background: white; }
 
 .contact {
