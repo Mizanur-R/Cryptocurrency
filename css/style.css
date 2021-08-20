@@ -718,7 +718,7 @@ nav.navbar {
         -moz-transition: .3s;
         -ms-transition: .3s;
         -o-transition: .3s; }
-      .faq .accordion .card .card-header button.collapsed[aria-expanded="true"]::after {
+      .faq .accordion .card .card-header button[aria-expanded="true"]::after {
         content: "";
         position: absolute;
         top: 13px;
