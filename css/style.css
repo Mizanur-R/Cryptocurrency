@@ -685,12 +685,14 @@ nav.navbar {
       -moz-transition: .3s;
       -ms-transition: .3s;
       -o-transition: .3s; }
-      .faq .accordion .card .card-header a {
+      .faq .accordion .card .card-header button {
         position: relative;
-        display: block;
-        text-decoration: none;
-        color: white; }
-      .faq .accordion .card .card-header a.collapsed::after {
+        background: transparent;
+        color: white;
+        border: none;
+        width: 100%;
+        text-align: left;}
+      .faq .accordion .card .card-header button::after {
         content: "";
         position: absolute;
         top: 13px;
@@ -703,7 +705,7 @@ nav.navbar {
         -moz-transition: .3s;
         -ms-transition: .3s;
         -o-transition: .3s; }
-      .faq .accordion .card .card-header a.collapsed::before {
+      .faq .accordion .card .card-header button::before {
         content: "";
         position: absolute;
         top: 4px;
@@ -716,7 +718,7 @@ nav.navbar {
         -moz-transition: .3s;
         -ms-transition: .3s;
         -o-transition: .3s; }
-      .faq .accordion .card .card-header a[aria-expanded="true"]::after {
+      .faq .accordion .card .card-header button[aria-expanded="true"]::after {
         content: "";
         position: absolute;
         top: 13px;
@@ -732,7 +734,7 @@ nav.navbar {
     .faq .accordion .card .card-header:hover {
       background: #7b5eea;
       color: white; }
-    .faq .accordion .card .card-header:hover a.collapsed::after, .faq .accordion .card .card-header:hover a.collapsed::before, .faq .accordion .card .card-header:hover a[aria-expanded="true"]::after {
+    .faq .accordion .card .card-header:hover button::after, .faq .accordion .card .card-header:hover button::before, .faq .accordion .card .card-header:hover button[aria-expanded="true"]::after {
       background: white; }
 
 .contact {
