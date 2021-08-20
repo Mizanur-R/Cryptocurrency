@@ -1,0 +1,206 @@
+@import './variable';
+
+// small devices
+@media (min-width: 576px){
+
+}
+// medium devices
+@media (min-width: 768px){
+
+}
+// large devices
+@media (min-width: 992px) {
+
+}
+// extra-large devices
+@media (min-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+    nav{
+        background: $primary-color !important;
+        z-index: 4444 !important;
+
+        .nav-items{
+            display: none;
+        }
+        #bur-icon{
+            font-size: 26px;
+            cursor: pointer;
+            color: #ccc;
+        }
+        span.wallet-btn{
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+
+        .mobile-menu{
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: $primary-color;
+            height:  100%;
+            transition: .2s;
+            width: 0%;
+            overflow-x: hidden;
+            -webkit-transition: .2s;
+            -moz-transition: .2s;
+            -ms-transition: .2s;
+            -o-transition: .2s;
+         
+            .close-btn{
+                font-size: 32px;
+                position: absolute;
+                right: 23px;
+                top: 10px;
+                cursor: pointer;
+            }
+
+            .items{
+                width : 90%;
+                margin: auto;
+                margin-top: 65px;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    display: block;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+                    margin-top: 6px;
+                    border-bottom: 1px solid transparent;
+                    padding-bottom: 5px;
+                }   
+                a:hover{
+                    color: $secondary-text-color;
+                    border-bottom: 1px solid $secondary-text-color;
+                }
+            }
+        }
+    }
+    // hero section 
+    .hero{
+        .home-img{
+            
+
+            .hero-content{
+                width: 100%;
+                margin-top: 100px !important;
+            }
+        }
+        
+    }
+    // concept 
+    .concept{
+        .header{
+            p{
+                width: 100% !important;
+                text-align: center;
+            }
+        }
+        .img-right{
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px){
+    p{
+        font-size: 14px !important;
+    }
+    .img-right{
+        width: 100% !important;
+    }
+    // footer bottom
+    .footer-bottom{
+        display: flex !important;
+        flex-direction: column !important;
+        p{
+            font-size: 12px !important;
+            margin-bottom: 15px !important;
+        }
+       
+    }
+    // hero 
+    .hero{
+        h2.mb-4{
+            font-size: $sec-responsive !important;
+            line-height: 38px !important;
+        }
+    }
+    //pricing 
+    .pricing{
+        .p-content{
+            ul{
+                display: flex !important;
+                flex-direction: column !important;
+
+                li{
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+    }
+    // section title 
+    .team{
+        .team-title{
+            h2{
+                font-size: 45px !important;
+                margin-bottom: -32px !important;
+            }
+            h4{
+                font-size: 24px !important;
+                line-height: 28px !important;
+            }
+        }
+    }
+    // wallet 
+    .wallet{
+        .download-area{
+            display: flex;
+            flex-direction: column;
+
+            button{
+                margin-bottom: 15px !important;
+            }
+            ul{
+                padding: 0 !important;
+            }
+        }
+    }
+    // feature area
+    .feature{
+        .brand{
+            padding: 0 !important;
+        }
+    }
+    // faq section 
+    .faq{
+        .card-header{
+            a{
+                font-size: 14px !important;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
